@@ -1,0 +1,37 @@
+#This program will track my movements over the days, weeks, months and years.
+#There will be an entry for DATE
+#There will be an entry for LOCATION
+#These will exist in relation to each other, in a dictionary.
+
+#User enters the date he would like to update with his movememnt.
+
+USER prompt"What is the date you would like to update on your movement track?"
+
+USER INSTRUCTION: User needs to be told to enter the info in correct format
+
+--> User enters date
+
+IF data is in the correct format
+    PRINT "Success!"
+ELSE "Data was not entered in the correct format.
+
+    Remind user of the correct format
+
+#The user then enters the location details - Country, City, Address (if applicable)
+User needs to be told to enter the info in correct format
+
+--> User enters location data
+
+IF data is in the correct format
+    PRINT "Success!"
+ELSE "Data was not entered in the correct format.
+
+    Remind user of the correct format
+
+# This information is collected, tied together, and entered into the dictionary.
+
+
+# User can print his MOveMent Track
+
+
+
